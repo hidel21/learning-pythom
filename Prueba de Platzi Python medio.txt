@@ -1,0 +1,82 @@
+¿Cuál de estos principios pertenece al Zen de Python?
+Explícito es mejor que implícito.
+2.
+¿Cuál es el documento PEP que contiene la guía de estilos de Python?
+PEP 8
+3.
+¿Cuál es el módulo nativo de Python para crear entornos virtuales?
+venv
+4.
+En la terminal, ¿con qué comando se sale de un entorno virtual creado con venv?
+
+deactivate
+5.
+¿Cuál es el archivo que contiene los nombres y versiones de las dependencias de un proyecto en Python?
+requirements.txt
+6.
+¿Cuál es la especialidad de la industria tecnológica en la que impacta Anaconda?
+Ciencia de datos
+7.
+¿Puede una lista contener diccionarios?
+Verdader
+
+8.
+En un list comprehension la condición es:
+Opcional
+9.
+En un dictionary comprehension el ciclo es:
+Obligatorio
+10.
+¿Cuántas expresiones como máximo puede contener una función anónima?
+Una
+11.
+¿Con qué palabra clave se define una función anónima?
+lambda
+12.
+¿Qué es una función de orden superior?
+Una función que recibe como parámetro a otra función.
+13.
+¿Con qué operador puedo unir diccionarios?
+|
+14.
+¿Cuál es la diferencia entre un error de sintaxis y una excepción?
+Un error de sintaxis en el código impide que el programa siquiera empiece a ejecutarse, en cambio una excepción es elevada cuando se llega a la línea de código que la ocasiona.
+15.
+¿Dónde se encuentra la herramienta de depuración?
+En el editor de código.
+16.
+¿Cuál es la excepción que simboliza que intentamos acceder a una llave inexistente en un diccionario?
+KeyError
+17.
+La palabra clave finally en el manejo de excepciones es:
+Opcional
+18.
+Los assert statements pueden ser usados en conjunto con el manejo de excepciones tradicional (try/except)
+Verdadero
+19.
+¿Qué letra simboliza el modo de escritura con sobrescritura de un archivo en Python?
+W
+20.
+¿Qué valor debe llevar el parámetro encoding de la función open para escribir y leer caracteres especiales sin inconvenientes?
+
+utf-8
+21.
+¿Cuál es el comando que se utiliza para crear un entorno virtual? Para responder esta pregunta, considera que el comando para llamar a Python es py
+
+py -m venv venv
+
+22.
+¿Cuál de las siguientes opciones es un list comprehension con su sintaxis correcta?
+[i for i in range(1, 5) if i % 2 == 0]
+
+23.
+¿Cuál de las siguientes opciones es un dictionary comprehension con su sintaxis correcta?
+{value*2:value for value in range(1, 5) if value % 2 != 0}
+
+24.
+¿Cuál de las siguientes funciones anónimas recibe a x como parámetro y lo devuelve elevado al cuadrado?
+lambda x: x**2
+
+25.
+¿Cuál de las siguientes sentencias abre un archivo?
+with open("archivo.txt", "r", encoding="utf-8") as f:
